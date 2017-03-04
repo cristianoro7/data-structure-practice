@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/desperado/CLionProject/datastruct/adtlist/contants.h
+
+/home/desperado/CLionProject/datastruct/adtlist/ds_list.cpp
+stdio.h
+-
+contants.h
+/home/desperado/CLionProject/datastruct/adtlist/contants.h
+
+/home/desperado/CLionProject/datastruct/main.cpp
+iostream
+-
+
