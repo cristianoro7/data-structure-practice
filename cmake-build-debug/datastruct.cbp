@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/desperado/CLionProject/datastruct/adtlist/contants.h">
+		<Unit filename="/home/desperado/CLionProject/datastruct/adtlist/ds_list.cpp">
 			<Option target="datastruct"/>
 		</Unit>
-		<Unit filename="/home/desperado/CLionProject/datastruct/adtlist/ds_list.cpp">
+		<Unit filename="/home/desperado/CLionProject/datastruct/adtlist/list.h">
 			<Option target="datastruct"/>
 		</Unit>
 		<Unit filename="/home/desperado/CLionProject/datastruct/main.cpp">
