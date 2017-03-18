@@ -160,7 +160,7 @@ status lGetElem(LinkList L, int i, ElemType &e) {
     e = p->e;
     return OK;
 }
-```　
+```
 
 #### 单链表的插入
 
