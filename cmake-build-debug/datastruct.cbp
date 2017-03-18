@@ -90,6 +90,15 @@
 		<Unit filename="/home/desperado/CLionProject/datastruct/adtlist/list.h">
 			<Option target="datastruct"/>
 		</Unit>
+		<Unit filename="/home/desperado/CLionProject/datastruct/adtstack/ds_stack.cpp">
+			<Option target="datastruct"/>
+		</Unit>
+		<Unit filename="/home/desperado/CLionProject/datastruct/adtstack/hstack.h">
+			<Option target="datastruct"/>
+		</Unit>
+		<Unit filename="/home/desperado/CLionProject/datastruct/constant.h">
+			<Option target="datastruct"/>
+		</Unit>
 		<Unit filename="/home/desperado/CLionProject/datastruct/main.cpp">
 			<Option target="datastruct"/>
 		</Unit>

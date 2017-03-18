@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include "list.h"
-
+#include "../constant.h"
 status initList(SqList &L) {
     for (int i = 0; i <= MAXSIZE; ++i) {
         L.data[i] = 0;

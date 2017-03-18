@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/desperado/CLionProject/datastruct/adtlist/ds_list.cpp" "/home/desperado/CLionProject/datastruct/cmake-build-debug/CMakeFiles/datastruct.dir/adtlist/ds_list.cpp.o"
+  "/home/desperado/CLionProject/datastruct/adtstack/ds_stack.cpp" "/home/desperado/CLionProject/datastruct/cmake-build-debug/CMakeFiles/datastruct.dir/adtstack/ds_stack.cpp.o"
   "/home/desperado/CLionProject/datastruct/main.cpp" "/home/desperado/CLionProject/datastruct/cmake-build-debug/CMakeFiles/datastruct.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

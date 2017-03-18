@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/desperado/CLionProject/datastruct/adtlist/contants.h
-
 /home/desperado/CLionProject/datastruct/adtlist/ds_list.cpp
 stdio.h
 -
-contants.h
-/home/desperado/CLionProject/datastruct/adtlist/contants.h
+malloc.h
+-
+list.h
+/home/desperado/CLionProject/datastruct/adtlist/list.h
+
+/home/desperado/CLionProject/datastruct/adtlist/list.h
+
+/home/desperado/CLionProject/datastruct/adtstack/ds_stack.cpp
+cstdio
+-
 
 /home/desperado/CLionProject/datastruct/main.cpp
 iostream

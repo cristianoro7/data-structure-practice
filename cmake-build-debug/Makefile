@@ -150,6 +150,33 @@ adtlist/ds_list.cpp.s:
 	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtlist/ds_list.cpp.s
 .PHONY : adtlist/ds_list.cpp.s
 
+adtstack/ds_stack.o: adtstack/ds_stack.cpp.o
+
+.PHONY : adtstack/ds_stack.o
+
+# target to build an object file
+adtstack/ds_stack.cpp.o:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtstack/ds_stack.cpp.o
+.PHONY : adtstack/ds_stack.cpp.o
+
+adtstack/ds_stack.i: adtstack/ds_stack.cpp.i
+
+.PHONY : adtstack/ds_stack.i
+
+# target to preprocess a source file
+adtstack/ds_stack.cpp.i:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtstack/ds_stack.cpp.i
+.PHONY : adtstack/ds_stack.cpp.i
+
+adtstack/ds_stack.s: adtstack/ds_stack.cpp.s
+
+.PHONY : adtstack/ds_stack.s
+
+# target to generate assembly for a file
+adtstack/ds_stack.cpp.s:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtstack/ds_stack.cpp.s
+.PHONY : adtstack/ds_stack.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... adtlist/ds_list.o"
 	@echo "... adtlist/ds_list.i"
 	@echo "... adtlist/ds_list.s"
+	@echo "... adtstack/ds_stack.o"
+	@echo "... adtstack/ds_stack.i"
+	@echo "... adtstack/ds_stack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

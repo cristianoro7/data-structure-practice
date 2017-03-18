@@ -5,13 +5,10 @@
 #ifndef DATASTRUCT_CONTANTS_H
 
 #define DATASTRUCT_CONTANTS_H
-#define OK 1
-#define ERROR 0
-#define TRUE 1
+
 #define MAXSIZE 20
 //静态链表的最大空间
 #define STATIC_MAXSIZE 1000
-#define FALSE 0
 typedef int status;
 typedef int ElemType;
 
