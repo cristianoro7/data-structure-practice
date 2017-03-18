@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/datastruct.dir/main.cpp.o"
   "CMakeFiles/datastruct.dir/adtlist/ds_list.cpp.o"
   "CMakeFiles/datastruct.dir/adtstack/ds_stack.cpp.o"
+  "CMakeFiles/datastruct.dir/adtqueue/queue.cpp.o"
   "datastruct.pdb"
   "datastruct"
 )

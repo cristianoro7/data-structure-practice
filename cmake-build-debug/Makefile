@@ -150,6 +150,33 @@ adtlist/ds_list.cpp.s:
 	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtlist/ds_list.cpp.s
 .PHONY : adtlist/ds_list.cpp.s
 
+adtqueue/queue.o: adtqueue/queue.cpp.o
+
+.PHONY : adtqueue/queue.o
+
+# target to build an object file
+adtqueue/queue.cpp.o:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtqueue/queue.cpp.o
+.PHONY : adtqueue/queue.cpp.o
+
+adtqueue/queue.i: adtqueue/queue.cpp.i
+
+.PHONY : adtqueue/queue.i
+
+# target to preprocess a source file
+adtqueue/queue.cpp.i:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtqueue/queue.cpp.i
+.PHONY : adtqueue/queue.cpp.i
+
+adtqueue/queue.s: adtqueue/queue.cpp.s
+
+.PHONY : adtqueue/queue.s
+
+# target to generate assembly for a file
+adtqueue/queue.cpp.s:
+	$(MAKE) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/adtqueue/queue.cpp.s
+.PHONY : adtqueue/queue.cpp.s
+
 adtstack/ds_stack.o: adtstack/ds_stack.cpp.o
 
 .PHONY : adtstack/ds_stack.o
@@ -216,6 +243,9 @@ help:
 	@echo "... adtlist/ds_list.o"
 	@echo "... adtlist/ds_list.i"
 	@echo "... adtlist/ds_list.s"
+	@echo "... adtqueue/queue.o"
+	@echo "... adtqueue/queue.i"
+	@echo "... adtqueue/queue.s"
 	@echo "... adtstack/ds_stack.o"
 	@echo "... adtstack/ds_stack.i"
 	@echo "... adtstack/ds_stack.s"

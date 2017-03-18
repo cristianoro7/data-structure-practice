@@ -8,5 +8,5 @@
 #define ERROR 0
 #define TRUE 1
 #define FALSE 0
-
+#define MAXSIZE 100
 #endif //DATASTRUCT_CONSTANT_H
