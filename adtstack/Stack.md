@@ -4,7 +4,7 @@
 
 * 结构体
 
-```
+```c
 /*顺序储存结构*/
 typedef struct {
     ElemType data[MAXSIZE];
@@ -14,7 +14,7 @@ typedef struct {
 
 * 入栈操作
 
-```
+```c
 status push(SqStack &S, ElemType elemType) {
     if (S.top == MAXSIZE - 1) {
         return ERROR;
@@ -26,7 +26,7 @@ status push(SqStack &S, ElemType elemType) {
 
 * 出栈
 
-```
+```c
 status pop(SqStack &S, ElemType &e) {
     if (S.top == -1) {
         return ERROR;
@@ -44,7 +44,7 @@ status pop(SqStack &S, ElemType &e) {
 * 适合一个栈同增加的同时另一个栈在减少
 * 结构体
 
-```
+```c
 /**
  * 共享栈结构体
  */
@@ -59,7 +59,7 @@ typedef struct {
 
 * 入栈
 
-```
+```c
 status sharePush(SqShareStack &S, ElemType e, int stackNumber) {
     if (S.top1 + 1 == S.top2) {
         return ERROR;
@@ -75,7 +75,7 @@ status sharePush(SqShareStack &S, ElemType e, int stackNumber) {
 
 * 出栈
 
-```
+```c
 status sharePop(SqShareStack &S, ElemType &e, int stackNumber) {
     if(stackNumber == 1) {
         if(S.top1 == -1) {
@@ -95,7 +95,8 @@ status sharePop(SqShareStack &S, ElemType &e, int stackNumber) {
 #### 链栈
 
 * 结构体
-```
+
+```c
 //链式储存结构
 typedef struct StackNode {
     ElemType data;
@@ -109,7 +110,8 @@ typedef struct LinkStack {
 ```
 
 * 入栈
-```
+
+```c
 status sPush(LinkStack &S, ElemType e) {
     LinkStackPtr ptr = (LinkStackPtr) malloc(sizeof(StackNode));
     if(ptr == NULL) {
@@ -124,7 +126,8 @@ status sPush(LinkStack &S, ElemType e) {
 ```
 
 * 出栈
-```
+
+```c
 status sPop(LinkStack &S, ElemType &e) {
     if(S.top != NULL) {
         LinkStackPtr ptr;
